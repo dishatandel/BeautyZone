@@ -1,0 +1,647 @@
+<!-- FILE 1 — index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyZone | Women's Beauty Parlour & Bridal Specialist in Honnavar</title>
+    <meta name="description" content="Professional women's beauty parlour and bridal makeup specialist in Honnavar, Karnataka. 6+ years of experience transforming brides with personalized care.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fas fa-spa"></i></span>
+                <span class="logo-text">Beauty<strong>Zone</strong></span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#bridal" class="nav-link">Bridal</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-mobile-cta">
+                    <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#appointment" class="btn btn-primary desktop-cta">Book Appointment</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge"><i class="fas fa-star gold-star"></i> Honnavar's Trusted Beauty Destination</span>
+                    <h1 class="hero-title">Where Beauty Meets <span>Confidence</span></h1>
+                    <h2 class="hero-subtitle">Professional beauty & bridal services in Honnavar</h2>
+                    <p class="hero-description">
+                        With 6+ years of experience and over 100 brides beautifully transformed, BeautyZone is dedicated to making every woman feel confident, radiant and special.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">Book Your Appointment</a>
+                        <a href="#services" class="btn btn-outline">Explore Services</a>
+                    </div>
+                    <div class="hero-trust-indicators">
+                        <div class="trust-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>6+ Years Experience</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100+ Brides Transformed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-frame">
+                        <img src="photos/intro.png" alt="Professional beauty salon experience at BeautyZone Honnavar" class="hero-img">
+                    </div>
+                    <div class="floating-card">
+                        <div class="fc-icon"><i class="fas fa-crown"></i></div>
+                        <div class="fc-text">
+                            <strong>Bridal Specialist</strong>
+                            <span>Exquisite makeover art</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE / STATS SECTION -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="6">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Brides Transformed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper"><i class="fas fa-heart"></i></div>
+                        <div class="stat-label-large">Personalized Beauty Care</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper"><i class="fas fa-shield-alt"></i></div>
+                        <div class="stat-label-large">Professional Service</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-col">
+                        <div class="about-img-container">
+                            <img src="photos/makeup.png" alt="Beauty expert styling at BeautyZone Honnavar" class="about-img">
+                            <div class="about-badge">
+                                <span class="badge-number">6+</span>
+                                <span class="badge-text">Years of Beauty Expertise</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content-col">
+                        <span class="section-tag">About BeautyZone</span>
+                        <h2 class="section-title">Beauty Care With Experience & Heart</h2>
+                        <p class="about-lead">
+                            Located in the heart of Honnavar, Karnataka, BeautyZone provides personalized beauty services with meticulous attention to detail and uncompromising hygiene standards.
+                        </p>
+                        <p class="about-text">
+                            We believe that true beauty comes from feeling comfortable in your own skin. Whether you are prepping for a grand wedding or treating yourself to routine skincare, our expert beautician ensures a warm, customer-focused experience tailored exclusively to you.
+                        </p>
+                        <div class="about-features">
+                            <div class="about-feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Experienced bridal makeup specialist</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>High-grade hygienic tools & premium products</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Customized look planning for every skin tone</span>
+                            </div>
+                        </div>
+                        <div class="about-action">
+                            <a href="#appointment" class="btn btn-primary">Schedule a Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services section-padding bg-cream" id="services">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Our Offerings</span>
+                    <h2 class="section-title">Professional Beauty Services</h2>
+                    <p class="section-subtitle">Tailored treatments designed to enhance your natural grace and elegance.</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="photos/bride.png" alt="Bridal Makeup" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Bridal Makeup</h3>
+                            <p class="service-desc">Professional bridal makeup designed to make your special day unforgettable and picture-perfect.</p>
+                            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="photos/party.png" alt="Party Makeup" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Party Makeup</h3>
+                            <p class="service-desc">Elegant makeup for weddings, receptions, parties and special occasions that lasts all day.</p>
+                            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="photos/facial.png" alt="Facial & Skin Care" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Facial & Skin Care</h3>
+                            <p class="service-desc">Relaxing beauty treatments designed around your skin's specific needs for a radiant glow.</p>
+                            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="photos/hair.png" alt="Hair Styling" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Hair Styling</h3>
+                            <p class="service-desc">Beautiful hairstyles ranging from elegant updos to soft waves for everyday wear and celebrations.</p>
+                            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="photos/hair_spa.png" alt="Hair Care" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Hair Care</h3>
+                            <p class="service-desc">Professional hair-care services, treatments and nourishment for healthier, silkier hair.</p>
+                            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="photos/eye.png" alt="Eyebrow & Beauty Care" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Eyebrow & Beauty Care</h3>
+                            <p class="service-desc">Precise grooming, threading, and essential everyday beauty care for a polished look.</p>
+                            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BRIDAL SECTION -->
+        <section class="bridal section-padding" id="bridal">
+            <div class="container">
+                <div class="bridal-grid">
+                    <div class="bridal-content">
+                        <span class="section-tag">Bridal Excellence</span>
+                        <h2 class="section-title">Your Big Day Deserves the Best</h2>
+                        <p class="bridal-lead">
+                            From your first consultation to the final touch, we focus on creating a bridal look that feels beautifully you.
+                        </p>
+                        <p class="bridal-text">
+                            We take pride in being trusted by over 100 brides across Honnavar and surrounding areas. Our expert approach blends traditional grace with modern makeup techniques to ensure your look stays flawless, radiant, and comfortable throughout your celebrations.
+                        </p>
+                        <div class="bridal-highlights">
+                            <div class="highlight-box">
+                                <i class="fas fa-heart"></i>
+                                <div>
+                                    <strong>100+ Brides</strong>
+                                    <span>Beautifully Transformed</span>
+                                </div>
+                            </div>
+                            <div class="highlight-box">
+                                <i class="fas fa-palette"></i>
+                                <div>
+                                    <strong>Personalized Look</strong>
+                                    <span>Tailored to your outfit & style</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bridal-cta">
+                            <a href="#appointment" class="btn btn-primary">Book Bridal Consultation</a>
+                        </div>
+                    </div>
+                    <div class="bridal-image-wrapper">
+                        <div class="bridal-img-container">
+                            <img src="photos/makeup2.jpg" alt="Stunningly transformed Indian bride at BeautyZone Honnavar" class="bridal-img">
+                            <div class="bridal-floating-badge">
+                                <i class="fas fa-star"></i>
+                                <span>Specialist Bridal Care</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="why-us section-padding bg-cream">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">The BeautyZone Difference</span>
+                    <h2 class="section-title">Why Choose BeautyZone</h2>
+                    <p class="section-subtitle">Dedicated to professional standards, warmth, and complete client satisfaction.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-award"></i></div>
+                        <h3 class="feature-title">Experienced</h3>
+                        <p class="feature-desc">6+ years of dedicated beauty experience serving clients with professional expertise.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-crown"></i></div>
+                        <h3 class="feature-title">Bridal Specialist</h3>
+                        <p class="feature-desc">Dedicated attention to bridal looks, pre-bridal packages, and flawless event styling.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-user-check"></i></div>
+                        <h3 class="feature-title">Personalized Care</h3>
+                        <p class="feature-desc">Every client receives a customized consultation and look suited uniquely to her style.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-pump-soap"></i></div>
+                        <h3 class="feature-title">Hygienic & Professional</h3>
+                        <p class="feature-desc">Clean tools, sanitized workstation, and professional service you can completely trust.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-gem"></i></div>
+                        <h3 class="feature-title">Premium Experience</h3>
+                        <p class="feature-desc">A relaxing, warm, and comfortable beauty atmosphere designed for your ultimate peace of mind.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3 class="feature-title">Honnavar Based</h3>
+                        <p class="feature-desc">Conveniently located and trusted beauty destination serving clients right here in Honnavar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO / INSTAGRAM SECTION -->
+        <section class="portfolio-section section-padding" id="portfolio">
+            <div class="container">
+                <div class="portfolio-card text-center">
+                    <div class="portfolio-icon"><i class="fab fa-instagram"></i></div>
+                    <span class="section-tag">Our Portfolio</span>
+                    <h2 class="section-title">Explore Our Work on Instagram</h2>
+                    <p class="portfolio-desc">
+                        We regularly update our latest bridal makeovers, hairstyling creations, and client transformations on our official Instagram page. Visit our feed to see our complete work!
+                    </p>
+                    <a href="https://www.instagram.com/beauty_zone_1106/" id="instagramPortfolioBtn" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-instagram"></i> View Portfolio on Instagram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials section-padding bg-cream" id="testimonials">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Client Love</span>
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-subtitle">Read genuine feedback from brides and clients who trusted BeautyZone.</p>
+                </div>
+
+                <div class="testimonial-slider-wrapper">
+                    <div class="testimonial-track" id="testimonialTrack">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Absolutely loved my bridal makeup. The entire experience was so comfortable, calm, and beautiful. Received so many compliments on my wedding day!"
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-avatar"><i class="fas fa-user-circle"></i></div>
+                                    <div>
+                                        <h4 class="client-name">Happy Bride</h4>
+                                        <span class="client-role">Bridal Client, Honnavar</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Very professional service and meticulous attention to detail. Highly recommended for bridal makeup and special occasions in Honnavar."
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-avatar"><i class="fas fa-user-circle"></i></div>
+                                    <div>
+                                        <h4 class="client-name">BeautyZone Client</h4>
+                                        <span class="client-role">Party Makeup Client</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Beautiful work and such a warm experience! The facial and hair styling were exceptional. Truly feel pampered every time I visit."
+                                </p>
+                                <div class="client-info">
+                                    <div class="client-avatar"><i class="fas fa-user-circle"></i></div>
+                                    <div>
+                                        <h4 class="client-name">Bridal Client</h4>
+                                        <span class="client-role">Regular Beauty Care Client</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider Controls -->
+                    <div class="testimonial-controls">
+                        <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                        <div class="slider-dots" id="sliderDots"></div>
+                        <button class="slider-btn next-btn" id="nextBtn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- APPOINTMENT SECTION -->
+        <section class="appointment section-padding" id="appointment">
+            <div class="container">
+                <div class="appointment-grid">
+                    <div class="appointment-info">
+                        <span class="section-tag">Book Your Visit</span>
+                        <h2 class="section-title">Schedule Your Appointment</h2>
+                        <p class="appointment-text">
+                            Ready to experience professional beauty care or discuss your bridal look? Fill out the form below and click request to get redirected to WhatsApp.
+                        </p>
+                        <div class="appointment-contact-boxes">
+                            <div class="ac-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <span>Honnavar, Karnataka, India</span>
+                                </div>
+                            </div>
+                            <div class="ac-box">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <strong>Quick Booking</strong>
+                                    <span>Instant confirmation via WhatsApp</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="appointment-form-wrapper">
+                        <form class="booking-form" id="bookingForm">
+                            <div class="form-group">
+                                <label for="fullName">Full Name <span class="required">*</span></label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                                <span class="error-msg" id="nameError">Please enter your name</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                                <span class="error-msg" id="phoneError">Please enter a valid phone number</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="serviceSelect">Select Service <span class="required">*</span></label>
+                                <select id="serviceSelect" name="service" required>
+                                    <option value="" disabled selected>Choose a service</option>
+                                    <option value="Bridal Makeup">Bridal Makeup</option>
+                                    <option value="Party Makeup">Party Makeup</option>
+                                    <option value="Facial & Skin Care">Facial & Skin Care</option>
+                                    <option value="Hair Styling">Hair Styling</option>
+                                    <option value="Hair Care">Hair Care</option>
+                                    <option value="Eyebrow & Beauty Care">Eyebrow & Beauty Care</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <span class="error-msg" id="serviceError">Please select a service</span>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="prefDate">Preferred Date <span class="required">*</span></label>
+                                    <input type="date" id="prefDate" name="prefDate" required>
+                                    <span class="error-msg" id="dateError">Please select a date</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="prefTime">Preferred Time <span class="required">*</span></label>
+                                    <input type="time" id="prefTime" name="prefTime" required>
+                                    <span class="error-msg" id="timeError">Please select a time</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message / Specific Requests (Optional)</label>
+                                <textarea id="message" name="message" rows="3" placeholder="Any specific requirements or queries..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-whatsapp btn-full"><i class="fab fa-whatsapp"></i> Request Appointment via WhatsApp</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUCCESS POPUP MODAL -->
+        <div class="popup-overlay" id="successPopup">
+            <div class="popup-box">
+                <div class="popup-icon"><i class="fas fa-check-circle"></i></div>
+                <h3>Query Successfully Submitted!</h3>
+                <p>Your appointment details have been noted. We are now redirecting you to WhatsApp to complete your booking.</p>
+                <button class="btn btn-whatsapp btn-full" id="popupProceedBtn"><i class="fab fa-whatsapp"></i> Continue to WhatsApp</button>
+            </div>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section-padding bg-cream" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Visit BeautyZone</h2>
+                    <p class="section-subtitle">We would love to welcome you to our parlor in Honnavar.</p>
+                </div>
+                
+                <div class="contact-card-container">
+                    <div class="contact-details-card">
+                        <div class="cd-header">
+                            <div class="cd-logo"><i class="fas fa-spa"></i></div>
+                            <div>
+                                <h3>BeautyZone</h3>
+                                <p>Women's Beauty Parlour & Bridal Specialist</p>
+                            </div>
+                        </div>
+                        <ul class="cd-list">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <span>Honnavar, Karnataka, India</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <span>Add your phone number</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <span>Book through WhatsApp</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong>Business Hours</strong>
+                                    <span>Please contact us for current availability.</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cd-actions">
+                            <a href="#" id="contactWhatsappBtn" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                            <a href="#" id="contactCallBtn" class="btn btn-outline"><i class="fas fa-phone"></i> Call</a>
+                            <a href="#" id="contactMapBtn" class="btn btn-secondary" target="_blank"><i class="fas fa-directions"></i> Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#home" class="footer-logo">
+                        <i class="fas fa-spa"></i> Beauty<strong>Zone</strong>
+                    </a>
+                    <p class="footer-tagline">"Beauty that feels like you."</p>
+                    <p class="footer-desc">Professional beauty and bridal styling services located in Honnavar, Karnataka.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#bridal">Bridal</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Bridal Makeup</a></li>
+                        <li><a href="#services">Party Makeup</a></li>
+                        <li><a href="#services">Facial & Skin Care</a></li>
+                        <li><a href="#services">Hair Styling</a></li>
+                        <li><a href="#services">Eyebrow & Beauty Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/beauty_zone_1106/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@Beautyzone1106" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" id="footerWhatsappBtn" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p class="footer-note">Honnavar, Karnataka, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> BeautyZone. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="#" id="floatingWhatsapp" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
